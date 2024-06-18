@@ -83,11 +83,32 @@ Verify the installation by runniing the following command on Command Line
 
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
-   To install a package manager such as pip,
-   
+   To install a package manager such as pip, 
+   Open your Command line and verify if you have a pre-existing pip installation 
+   by running the following command pip --version and press enter.
+
+   once you verify that the package is not installed, run the following command
+on the terminal; curl https://bootstrap.pypa.io/get-pip.py to download pip
+once done run 'python get pip'
+the download will run and install.
+verify the installation.
+
+
 
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
+
+   click on download on the x64 bit version and wait as it downloads the package.
+   Once downloaded, double click to run.
+   the processes are pretty much standard, so wait for the files to get staged.
+   on the type and networkiing page, select "Development Computer" and check the Named Pipe and Shared memory boxes which have "MySQL"  highlighted. then hit next. 
+   Select the level of access you want to give the useers of the server to manage access
+   Create a strong password, one that is also easy to remember
+Select the windows service type then click next, and click on execute to finalize the installation.
+Click on finish.
+
+Once youre done, use the same criteria to download mysql workbench
+
 
 7. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
