@@ -64,12 +64,27 @@ Navigate through the system to familiarize yourself with the newly installed IDE
    On the tsearch bar on windows, search for Git and confirm your installation.
 
    To integrate git with github the following steps are necessary to run github and make your first commit.
+   On a browser, visit www.github.com and create a profile
+   then on your terminal, configure Git by
+   setting username git config --global user.email "your email"
+   git config --global user.name "username"
+   Initial github repo can be configured from there.
+   stage all the files you want toinclude in the commit and commit with a message describing what youre doing.
 
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
 
+Visit the python website
+download the installer based on your OS version on the website's download page.
+Once the download finishes, click on the .exe (for windows) to run.
+Verify the installation by runniing the following command on Command Line
+"python --version"
+
+
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
+   To install a package manager such as pip,
+   
 
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
