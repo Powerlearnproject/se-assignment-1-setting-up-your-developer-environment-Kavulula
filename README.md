@@ -13,10 +13,57 @@ This assignment aims to familiarize you with the tools and configurations necess
 1. Select Your Operating System (OS):
    Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
 
+   Windows 11 Download to installation Procedure
+Run a compatibility test to confirm that your pc is compatible with the windows 11 program. 
+
+   Navigate from a browser to https://www.microsoft.com/software-download/windows11
+
+You will need a flash drive with at least 8gb space and a computer to make the bootable drive from.
+Under the 'create Windows 11 installation media' download a small installation tool
+Go to the download location and run from there having plugged in the usb drive.
+Accept the license agreement when prompted to
+Accept th recommended options for the pc and select language options.
+click next to select the drive and next again to download
+once done, click nextt to create the windows installation on the usb after the download. this may take a little time depending on your internet speed and pc.
+
+Restart your pc and depending on the model, press the bios key to select the boot options, selecting the USB drive.
+Select the language, time and currency format and click next to get to the License agreement, accept  then click next.
+The next page is where you create partitions, and this is dependent on the user and what one prefers.
+Click on next to begiin the installation.
+After the installation you will select your country and keyboard layout, then click internet connection to complete the setup, name the pc and enter your MS account for naming.
+
+enter the details for your login pin in the next page to finalize on the setup and customization.
+In this case the setup is completed and one can then proceed to setup and use other applications.
+
+
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
+
+Go to the VS Code website and click on the download button, and download the file.
+Click on the downloaded file to run and begiin the installation process.
+Agree to the license agreement, and click next to accept the location of installation. then click next.
+
+Depending on the preferences, you may select the options on that page and click next.
+
+click on install button and once the setup is done, click finish.
+
+launch the app on the desktop to then customize and install any extensions you want to have on your IDE.
+Navigate through the system to familiarize yourself with the newly installed IDE.
+
+
 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+
+   On a browswer, search for git and from git-scm.com download the Windows version X64 for your machine, download.
+   Once downloaded, click to begin the setup and click next.
+   Click on next without changing the options, this makes sure that your system is running on default.
+
+   Finally click on install to make the installation complete.
+   After successfully installinig, click on finish.
+
+   On the tsearch bar on windows, search for Git and confirm your installation.
+
+   To integrate git with github the following steps are necessary to run github and make your first commit.
 
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
